@@ -6,9 +6,13 @@ import NavBar from '../navbar/NavBar';
 const Main = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            <div className='my-12'>
+                <NavBar></NavBar>
+            </div>
             <Outlet></Outlet>
-            <Footer></Footer>
+            <div className='my-20'>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };

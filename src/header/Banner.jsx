@@ -8,9 +8,10 @@ import img6 from '../assets/assets/images/banner/6.jpg'
 const Banner = () => {
 
     const bannerTitle = <>
-        <div className="absolute flex mx-20 transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <div className=''>
-                <h1 className='text-6xl font-bold text-white rounded-xl mt-10'>Affordable <br /> Price For Car <br /> Servicing</h1>
+        <div className="absolute  h-[600px] rounded-xl bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0.00) 100%)]
+        ">
+            <div className='mx-20'>
+                <h1 className='text-7xl font-bold text-white  mt-10'>Affordable  Price For Car  Servicing</h1>
                 <p className='mt-10 text-white'>There are many variations of passages of  available, but <br /> the majority have suffered alteration in some form</p>
                 <div className='mt-10'>
                     <button className="btn bg-transparent hover:bg-[#FF3811] text-white mr-5">Discover More</button>
@@ -25,9 +26,9 @@ const Banner = () => {
 
             {/* slide 1 */}
             <div id="slide1" className="carousel-item relative w-full">
-                <img src={img1} className="w-full h-[600px]" />
+                <img src={img1} className="w-full h-[600px] rounded-xl" />
 
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <div className="absolute">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -38,8 +39,8 @@ const Banner = () => {
 
             {/* slide 2 */}
             <div id="slide2" className="carousel-item relative w-full">
-                <img src={img2} className="w-full h-[600px]" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <img src={img2} className="w-full h-[600px] rounded-xl" />
+                <div className="absolute ">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -49,8 +50,8 @@ const Banner = () => {
             </div>
             {/* slide 3 */}
             <div id="slide3" className="carousel-item relative w-full">
-                <img src={img3} className="w-full h-[600px]" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <img src={img3} className="w-full h-[600px] rounded-xl" />
+                <div className="absolute ">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -61,8 +62,8 @@ const Banner = () => {
 
             {/* slide 4 */}
             <div id="slide4" className="carousel-item relative w-full">
-                <img src={img4} className="w-full h-[600px]" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <img src={img4} className="w-full h-[600px] rounded-xl" />
+                <div className="absolute ">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -73,8 +74,8 @@ const Banner = () => {
 
             {/* slide 5 */}
             <div id="slide5" className="carousel-item relative w-full">
-                <img src={img5} className="w-full h-[600px]" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <img src={img5} className="w-full h-[600px] rounded-xl" />
+                <div className="absolute ">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
@@ -85,8 +86,8 @@ const Banner = () => {
 
             {/* slide 6*/}
             <div id="slide6" className="carousel-item relative w-full">
-                <img src={img6} className="w-full h-[600px]" />
-                <div className="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <img src={img6} className="w-full h-[600px] rounded-xl" />
+                <div className="absolute ">
                     {bannerTitle}
                 </div>
                 <div className="absolute flex justify-end transform -translate-y-1/2 left-5 right-5 bottom-0">
